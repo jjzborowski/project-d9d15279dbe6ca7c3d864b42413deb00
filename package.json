@@ -1,0 +1,50 @@
+{
+  "name": "project-d9d15279dbe6ca7c3d864b42413deb00",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --config ./config/webpack.dev.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "highcharts": "^9.0.0",
+    "highcharts-react-official": "^3.0.0",
+    "luxon": "^1.26.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.10.3",
+    "@babel/preset-env": "7.10.3",
+    "@babel/preset-react": "7.10.1",
+    "@babel/preset-typescript": "7.10.1",
+    "@svgr/webpack": "^5.4.0",
+    "@types/luxon": "^1.25.2",
+    "@types/node": "14.0.13",
+    "@types/react": "16.9.38",
+    "@types/react-dom": "16.9.8",
+    "@types/webpack-env": "1.15.2",
+    "babel-loader": "8.1.0",
+    "babel-plugin-import": "^1.13.0",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "css-loader": "3.6.0",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "4.3.0",
+    "mini-css-extract-plugin": "^0.11.2",
+    "node-sass": "4.14.1",
+    "sass-loader": "7.3.1",
+    "style-loader": "1.2.1",
+    "terser-webpack-plugin": "^4.2.2",
+    "ts-loader": "7.0.5",
+    "typescript": "^3.9.5",
+    "url-loader": "^4.1.0",
+    "webpack": "4.43.0",
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "3.11.0",
+    "webpack-merge": "5.1.2"
+  }
+}

@@ -1,0 +1,36 @@
+@import '~styles/variables';
+
+.timeStep {
+    display: flex;
+}
+
+.bar {
+    display: flex;
+    flex: 1 0 auto;
+
+    &Description {
+        font-size: 10px;
+        text-align: center;
+        margin: 10px 4px 0;
+    }
+}
+
+.slider {
+    margin: 10px 10px 0;
+}
+
+.buttonPrimary {
+    background-color: $martinique !important;
+}
+
+:global .Mui {
+    &Slider-valueLabel {
+        background: black;
+        color: white;
+        width: fit-content;
+    }
+
+    &SvgIcon-root {
+        color: $heliotrope;
+    }
+}
